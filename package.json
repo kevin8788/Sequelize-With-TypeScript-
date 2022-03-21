@@ -1,0 +1,35 @@
+{
+  "name": "sequelizewithtypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin8788/Sequelize-With-TypeScript-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevin8788/Sequelize-With-TypeScript-/issues"
+  },
+  "homepage": "https://github.com/kevin8788/Sequelize-With-TypeScript-#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.21",
+    "sequelize-cli": "^6.4.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.17.0"
+  }
+}
